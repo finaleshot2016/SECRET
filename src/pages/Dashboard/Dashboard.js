@@ -71,7 +71,7 @@ const Dashboard = () => {
 
       <div className={classes.row}>
         <Card className={classes.chart}>
-          <iframe className={classes.dex} src="https://dexscreener.com/ethereum/" title="dexchart"></iframe>
+          <iframe className={classes.dex} src="https://dexscreener.com/ethereum/0x1b1999c227e84d972f8064b34d6db601ce0e9954" title="dexchart"></iframe>
         </Card>
       </div>
 
