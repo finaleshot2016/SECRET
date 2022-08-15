@@ -36,7 +36,7 @@ export const EtherContextProvider = ({ children }) => {
   const avaxProvider = useMemo(() => new ethers.providers.getDefaultProvider('https://mainnet.infura.io/v3/612bc69b6c6d4bed9563cc131c039427'), []);
   const otoContract = useMemo(() => new ethers.Contract('0x1b1999C227E84d972f8064B34D6db601CE0e9954', otoAbi, avaxProvider), [avaxProvider]);
   const wavaxContract = useMemo(() => new ethers.Contract('0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', wavaxAbi, avaxProvider), [avaxProvider]);
-  const lpPair = '0xB38Cb6d6e5B413BeEf2140f335048E436A0F10fb';
+  const lpPair = '0xb23f5f45e22a707f53f05d70e82435d4bf86e747';
   const tokenDecimal = 6;
 
   const location = useLocation();
