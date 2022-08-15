@@ -10,7 +10,6 @@ import { ReactComponent as Account } from '../../assets/nav-account.svg';
 import { ReactComponent as Chart } from '../../assets/nav-chart.svg';
 
 import { ReactComponent as Swap } from '../../assets/nav-swap.svg';
-import { ReactComponent as Whitepaper } from '../../assets/nav-whitepaper.svg';
 import toCapitalize from '../../utils/toCapitalize';
 import useStyles from './Navbar.styles';
 
@@ -21,7 +20,6 @@ const menu = [
   { icon: Chart, label: 'Market Watch', link: '/marketwatch' },
   { icon: Chart, label: 'Price Prediction', link: 'price' },
   { icon: Swap, label: 'Swap', link: 'https://app.uniswap.org/#/swap?outputCurrency=0x1b1999c227e84d972f8064b34d6db601ce0e9954&chain=mainnet', isExternal: true },
-  { icon: Whitepaper, label: 'Medium', link: 'https://medium.com/@nostra_', isExternal: true },
 ];
 
 const linkVariant = {
