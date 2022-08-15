@@ -6,8 +6,8 @@ const global = (theme) => ({
   body: {
     overflowX: 'hidden',
     backgroundImage: 'url("https://i.imgur.com/blroYwQ.png")',
-    backgroundSize: 'contain',
-    backgroundRepeat: 'repeat',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
     backgroudnPosition: 'center',
     color: theme.colors.black[0],
     fontFamily: theme.fontFamily,
