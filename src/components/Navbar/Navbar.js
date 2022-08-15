@@ -20,7 +20,7 @@ const menu = [
   { icon: Chart, label: 'Chart', link: 'https://www.dextools.io/app/ether/pair-explorer/0xB23f5f45e22a707f53f05d70e82435D4bf86E747', isExternal: true },
   { icon: Chart, label: 'Market Watch', link: '/marketwatch' },
   { icon: Chart, label: 'Price Prediction', link: 'price' },
-  { icon: Swap, label: 'Swap', link: 'https://exchange.biswap.org/#/swap?outputCurrency=0x1ce0c2827e2ef14d5c4f29a091d735a204794041', isExternal: true },
+  { icon: Swap, label: 'Swap', link: 'https://app.uniswap.org/#/swap?outputCurrency=0x1b1999c227e84d972f8064b34d6db601ce0e9954&chain=mainnet', isExternal: true },
   { icon: Whitepaper, label: 'Medium', link: 'https://medium.com/@nostra_', isExternal: true },
 ];
 
