@@ -17,7 +17,7 @@ import useStyles from './Navbar.styles';
 const menu = [
   { icon: Dashboard, label: 'Dashboard', link: '/dashboard' },
   { icon: Account, label: 'Account', link: '/account' },
-  { icon: Chart, label: 'Chart', link: 'https://dexscreener.com/bsc/0x2f3899ffb9fdcf635132f7bb94c1a3a0f906cc6f', isExternal: true },
+  { icon: Chart, label: 'Chart', link: 'https://dexscreener.com/ethereum/', isExternal: true },
   { icon: Chart, label: 'Market Watch', link: '/marketwatch' },
   { icon: Chart, label: 'Price Prediction', link: 'price' },
   { icon: Swap, label: 'Swap', link: 'https://exchange.biswap.org/#/swap?outputCurrency=0x1ce0c2827e2ef14d5c4f29a091d735a204794041', isExternal: true },
